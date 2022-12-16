@@ -1,0 +1,44 @@
+{
+  "Guests": [
+    {
+      "id": 1,
+      "firstname": "Sharon",
+      "lastname": "Kipkirui",
+      "email": "sharonkipkirui22@gmail.com",
+      "seatno": "5",
+      "typeofaccess": "Standard"
+    },
+    {
+      "id": 2,
+      "firstname": "Vivian",
+      "lastname": "Dande",
+      "email": "viviandande@gmail.com",
+      "seatno": "2",
+      "typeofaccess": "VIP"
+    },
+    {
+      "id": 3,
+      "firstname": "Davy",
+      "lastname": "Masilva",
+      "email": "dmasilva@gmail.com",
+      "seatno": "1",
+      "typeofaccess": "VIP"
+    },
+    {
+      "id": 4,
+      "firstname": "Lilian",
+      "lastname": "Njoki",
+      "email": "liliannjoki111@gmail.com",
+      "seatno": "3",
+      "typeofaccess": "VIP"
+    },
+    {
+      "id": 5,
+      "firstname": "Tyrel",
+      "lastname": "Delton",
+      "email": "tyreld99@gmail.com",
+      "seatno": "4",
+      "typeofaccess": "VIP"
+    }
+  ]
+}
