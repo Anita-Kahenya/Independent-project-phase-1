@@ -31,6 +31,12 @@ fetch("http://localhost:3000/Guests", {
     let li = document.createElement("div");
     let span = document.createElement("span")
     span.textContent = `${guest.firstname} ${guest.lastname} - ${guest.email} - ${guest.seatno} -${guest.typeofaccess}`;
-    li.append(span)
+    let deleteGuest = document.createElement("button");
+    deleteGuest.textContent = "delete";
+    li.append(span, deleteGuest);
     document.querySelector(".guests").appendChild(li)
- }
+    deleteGuest.addEventListener("click",e =>{
+      e.target.closest("div").remove()
+    })
+  }
+
