@@ -1,4 +1,4 @@
-<!-- # Independent-project-phase-1
+# Independent-project-phase-1
  #### 16/12/2022
  #### By Vivian Dande
 
@@ -40,4 +40,4 @@
 
  ## Support/Contact Details
      - viviandande16@gmail.com
-     - +254742604943 -->
+     - +254742604943

@@ -39,6 +39,14 @@
       "email": "tyreld99@gmail.com",
       "seatno": "4",
       "typeofaccess": "VIP"
+    },
+    {
+      "firstname": "Liza",
+      "lastname": "Gordon",
+      "email": "lgordon@gmail.com",
+      "seatno": "15",
+      "typeofaccess": "standard",
+      "id": 6
     }
   ]
 }
