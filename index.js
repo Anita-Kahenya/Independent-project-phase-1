@@ -27,4 +27,9 @@ fetch("http://localhost:3000/Guests", {
     body: JSON.stringify(guestDetails)
  })
 
-
+ function displayGuests(guest){
+    let li = document.createElement("div");
+    let span = document.createElement("span")
+    span.textContent = `${guest.firstname} ${guest.lastname} - ${guest.email} - ${guest.seatno} -${guest.typeofaccess}`;
+   
+ }
