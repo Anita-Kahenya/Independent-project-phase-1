@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guestlist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="h-1">
+        <h1>My Guest List</h1>
+    </div>
+
+<div id="formAll">
+<div class="allForm">
+<h2 class="label2">Add New Guest</h2>
+ <div class="section-2" id="addForm">
+    <form action="adding-guests" method="GET" id="styleForm">
+        <label id="firstname" class="label2">First Name:</label>
+        <input type="text" class="label2" id="firstname" name="firstname" placeholder="enter first name"><br>
+
+        <label id="lastname" class="label2">Last Name:</label>
+        <input type="text" class="label2"id="lastname"  name="lastname" placeholder="enter last name"><br>
+
+        <label id="email-1" class="label2">Email:</label>
+        <input type="email" class="label2" id="email-1" name="email" placeholder="example@gmail.com"><br>
+
+        <label id="seat-no" class="label2">Seat No.:</label>
+        <input type="number" class="label2" id="seat-no" name="seatno" placeholder="enter seat no."><br>
+
+        <label class="label2">Type of Access:</label>
+        <select name="typeofaccess" id="access">
+        <option value="vip">VIP</option>
+        <option value="standard">Standard</option>
+        </select><br>
+
+        <input type="submit" value="Submit" class="label2" id="btn">
+        <!-- <button type="button" class="label2" id="btn-btn">X</button> -->
+
+    </form>
+</div>
+</div>
+<div class="allForms">
+<h2>Guest list</h2>
+<div class="last-section" id="display-list">
+    <div class="guests">
+
+    </div>
+</div>
+</div>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>
