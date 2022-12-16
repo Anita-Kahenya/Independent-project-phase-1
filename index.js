@@ -18,4 +18,13 @@ function addNewGuestDetails(event){
   }
 }
 
+fetch("http://localhost:3000/Guests", {
+    method: "POST",
+    headers: {
+     "Content-Type": "application/json",
+     "Accept": "application/json"
+    },
+    body: JSON.stringify(guestDetails)
+ })
+
 
