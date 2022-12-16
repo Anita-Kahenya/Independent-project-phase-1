@@ -1,0 +1,105 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/1204221779/photo/beautiful-wedding-set-decoration-in-the-restaurant-board-with-guest-list.jpg?s=1024x1024&w=is&k=20&c=u5vYykMUue9m_X3KiOJmCnvrwHjQ2C3s1nvS7bjiFCA=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    font-size: larger;
+}
+
+#h-1{
+    margin-left: 2%;
+    font-family: 'Playfair Display', serif;
+
+}
+#styleForm{
+    padding: 10px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+#styleForm > * {
+
+
+
+}
+
+#addForm{
+    border: solid 2px;
+    margin-left: 3%;
+    width: 40vw;
+    border-radius: 25px;
+    margin-top: 10px;
+    height: max-content;
+}
+.label2{
+
+}
+
+#display-list{
+    border: solid 2px;
+    margin-left: 3%;
+    width: 50vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 70vh;
+    padding: 1.2em;
+
+}
+#formAll{
+    display: flex;
+}
+
+.allForms{
+    margin-left: 2%;
+}
+
+#btn{
+    border: none;
+    border-radius: 50px;
+    width: 20%;
+    background-color:rgb(143, 206, 174);
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 15%;
+
+
+}
+#btn-btn{
+    border: none;
+    border-radius: 20px;
+    width: 10%;
+    background-color:red;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 5%;
+    margin-top: 25px;
+
+}
+#lastname{
+    margin-top: 3px;
+}
+#email-1{
+    margin-top: 3px;
+}
+#seat-no{
+    margin-top: 3px;
+}
+
+.guests div{
+    display: flex;
+    box-shadow: 0.04em 0.04em 0.06em black;
+    margin-top: 10px;
+    padding: 1em;
+    /* background: white; */
+}
+span{
+    width: 80%;
+}
+span + button {
+    background-color: red;
+    margin-right:5px;
+    font-size: 20px;
+}
