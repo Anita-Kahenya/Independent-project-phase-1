@@ -31,5 +31,6 @@ fetch("http://localhost:3000/Guests", {
     let li = document.createElement("div");
     let span = document.createElement("span")
     span.textContent = `${guest.firstname} ${guest.lastname} - ${guest.email} - ${guest.seatno} -${guest.typeofaccess}`;
-   
+    li.append(span)
+    document.querySelector(".guests").appendChild(li)
  }
