@@ -1,8 +1,12 @@
 document.addEventListener("DOMContentLoaded",() =>{
     fetch("http://localhost:3000/Guests")
     .then(response => response.json())
-    .then(data =>(data))
-})
+    .then(data =>{
+      for(let guest of data){
+        displayGuests(guest)
+      }
+    })
+  })
 
 let form = document.getElementById("styleForm")
 form = document.addEventListener("submit",addNewGuestDetails)
