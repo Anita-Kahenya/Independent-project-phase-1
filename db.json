@@ -71,14 +71,6 @@
       "seatno": "10",
       "typeofaccess": "standard",
       "id": 9
-    },
-    {
-      "firstname": "",
-      "lastname": "",
-      "email": "",
-      "seatno": "",
-      "typeofaccess": "vip",
-      "id": 10
     }
   ]
 }
