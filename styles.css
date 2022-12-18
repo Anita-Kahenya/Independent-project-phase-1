@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://media.istockphoto.com/id/1204221779/photo/beautiful-wedding-set-decoration-in-the-restaurant-board-with-guest-list.jpg?s=1024x1024&w=is&k=20&c=u5vYykMUue9m_X3KiOJmCnvrwHjQ2C3s1nvS7bjiFCA=");
+    background-image: url("https://images.unsplash.com/photo-1612979168796-bcae1575b8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     color:black;
@@ -44,7 +44,7 @@ body{
     width: 50vw;
     border-radius: 10px;
     margin-top: 10px;
-    height: 70vh;
+    height: max-content;
     padding: 1.2em;
 
 }

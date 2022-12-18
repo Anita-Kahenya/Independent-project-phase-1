@@ -47,6 +47,38 @@
       "seatno": "15",
       "typeofaccess": "standard",
       "id": 6
+    },
+    {
+      "firstname": "Meghan",
+      "lastname": "Carol",
+      "email": "carolm15@gmail.com",
+      "seatno": "9",
+      "typeofaccess": "standard",
+      "id": 7
+    },
+    {
+      "firstname": "Collins",
+      "lastname": "Ayoti",
+      "email": "ayoticollins@gmail.com",
+      "seatno": "5",
+      "typeofaccess": "vip",
+      "id": 8
+    },
+    {
+      "firstname": "Fred",
+      "lastname": "Nyajuka",
+      "email": "fn22@gmail.com",
+      "seatno": "10",
+      "typeofaccess": "standard",
+      "id": 9
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "seatno": "",
+      "typeofaccess": "vip",
+      "id": 10
     }
   ]
 }

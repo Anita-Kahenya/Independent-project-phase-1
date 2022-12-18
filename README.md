@@ -1,43 +1,48 @@
-# Independent-project-phase-1
- #### 16/12/2022
- #### By Vivian Dande
+# Phase-1-Independent-Project
+*****
+### Author : Vivian Dande 18/12/2022
+****
+## Project Description
+A guestlist management website
+******
 
- ## Project Description
+## SCREENSHOTS
+- link 1
+- link 2
 
 
- ## Setup/Installation Requirements
-     - Create folder Create a new project folder.
-     - Create a new, private GitHub repository
-     - Add my TM(Anita Kahenya) as a contributor to the project.
-     - Regularly commit to the repository.(20+ commits)
-     - Open the folder with vscode.
-     - on my VS Code terminal run "json-server --watch database.json" to expose our local server
-     - Open index.html file in vscode and right click in the work area, the navigate to "open liveserver". (The app will open with your default browser).
-     - And I am good to go.
+********
+## SetUp Instruction
+### Requirements
+* [HTML](https://github.com/viviandande/Independent-project-phase-1/blob/main/index.html)
+* [CSS](https://github.com/viviandande/Independent-project-phase-1/blob/main/styles.css)
+* [JAVASCRIPT](https://github.com/viviandande/Independent-project-phase-1/blob/main/index.js)
+* Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
 
-     #### Requirement
-     The project requires Json Server running.
 
- ## BDD //What your project does
-     As a user :
-     - See the first movie's details, including its **poster, title, runtime,
-        showtime, and available tickets** when the page loads.
-     - The number of available tickets will need to be derived by subtracting the number of
-        `tickets_sold` from the theater's `capacity`.
-     - I will need to make a GET request to the following endpoint to retrieve the film data:
 
- ## Live Link
- The application is deployed in Github Page
- Here is the link [JsonServer]()
+### Getting Files
+* Fork the repo
+- Create a new branch in your terminal (git checkout -b improve-feature)
+- Make appropriate changes in file(s)
+- Run the server to see the changes
+- Add the changes and commit them (git commit -am "Improve App")
+- Push to the branch (git push origin improve-app)
+- Create a Pull request
+* Open the folder location on terminal and use the following command to run app:
 
- ## Bugs
-     There is no bugs in the project.
+## How To Run It
+>  Open HTML file and make sure live server extension is installed.
+>  Click on go live to view the page on the browser.
 
- ## Technologies Used
-     - HTML and CSS
-     - JS
-     - JSON Server
+*****
+## Live Link
+Or you can access the web application directly via this [LINK.](https://viviandande.github.io/Independent-project-phase-1/)
+*****
 
- ## Support/Contact Details
-     - viviandande16@gmail.com
-     - +254742604943
+## Contact Information
+* Email : viviandande16@gmail.com
+*****
+## [License](https://github.com/viviandande/Independent-project-phase-1/blob/main/Licence)
+MIT License
+Copyright (c) 2022 Vivian Dande
